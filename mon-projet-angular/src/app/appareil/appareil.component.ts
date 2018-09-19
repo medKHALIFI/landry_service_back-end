@@ -14,5 +14,10 @@ export class AppareilComponent implements OnInit {
 
   ngOnInit() {
   }
+  
+  getStatus() {
+    return this.appareilStatus;
+  }
+
 
 }
